@@ -1,0 +1,12 @@
+<h1> Add Character</h1>
+<%=form_for :character do |f| %>
+  <p >
+    <%=f.label :name %><br>
+    <%=f.text_field :name %><br>
+    <%=f.label :stars %><br>
+    <%=f.text_field :stars%><br>
+  </p>
+  <p>
+    <%=f.submit%>
+  </p>
+<%end%>
